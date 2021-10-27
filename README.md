@@ -4,15 +4,15 @@
 
 1. Clone repository
 
-`git clone https://github.com/zanuarts/flower-for-you.git`
+```git clone https://github.com/zanuarts/flower-for-you.git```
 
 2. Install Virtual Environemnt
 
-`virtualenv env`
+```virtualenv env```
 
 3. Install Requirements
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 4. Import Flask App & Run
 
@@ -45,13 +45,13 @@ heroku login
 
 5. Install Gunicorn
 
-`pip install gunicorn`
+```pip install gunicorn```
 
 6. Create Procfile
 
 Enter this code to Procfile:
 
-`web:gunicorn app:app`
+```web:gunicorn app:app```
 
 7. Create Heroku app, add files to Git and deploy
 
